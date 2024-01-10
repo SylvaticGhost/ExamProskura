@@ -1,0 +1,3 @@
+﻿  matrix3.cpp
+G:\OP code\Exam\ExamProskura\ExamProskura\matrix3\matrix3.cpp(96,1): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+  matrix3.vcxproj -> G:\OP code\Exam\ExamProskura\ExamProskura\x64\Debug\matrix3.exe
