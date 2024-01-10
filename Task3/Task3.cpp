@@ -4,38 +4,6 @@
 
 using namespace std;
 
-class MyBooleanAlgebra
-{
-    //Algebra defined on {00, 01, 10, 11 and operation PlusOnModel
-public:
-    bool first_digit;
-    bool second_digit;
-
-    MyBooleanAlgebra(bool v1, bool v2)
-    {
-        first_digit = v1;
-        second_digit = v2;
-    }
-
-    void PlusOnModule() //00 10 11
-    {
-        if (second_digit == false)
-            second_digit = true;
-        else
-        {
-            if (first_digit == false)
-                first_digit = true;
-            else
-            {
-                first_digit = false;
-                second_digit = false;
-            }
-
-        }
-    }
-};
-
-
 class Cords
 {
 public:
@@ -223,12 +191,6 @@ int main()
     cout << "matrix: \n";
     
     print_matrix(matrix, rows, columns);
-
-
-    
-	
-
-    
 }
 
 
