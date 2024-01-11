@@ -1,0 +1,2 @@
+Positive Numbers: 4; Negative Numbers: 2; 0 Numbers: 1; Char symbols: 2;
+Positive Numbers: 6; Negative Numbers: 4; 0 Numbers: 1; Char symbols: 6;
